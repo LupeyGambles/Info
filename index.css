@@ -28,6 +28,21 @@ h2{
     font-family: "Poetsen One";
     align-self: center;
 }
+.video{
+    display:none;
+}
+h3{
+    color:white;
+    align-self:center;
+    align-items:center;
+    align-content:center;
+    position:absolute;
+}
+.click{
+    align-items:center;
+    align-content:center;
+    width:100%
+}
 h1{
     color: white;
     font-family: "Poetsen One";

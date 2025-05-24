@@ -1,10 +1,15 @@
 <html>
-  <link rel= "stylesheet" href="index.css"> 
+<link rel= "stylesheet" href="index.css"> 
   <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
-  <audio controls src="audio.mp3" type="mp3"></audio>
-   <script>
-	document.getElementById("music").play();
-    </script>
+ <audio autoplay loop id="audio">
+      <source src="youtube_fYD7YsSRHOY_1920x1080_h264.mp4" type="video/mp4" />
+ </audio>
+<script>
+ window.onclick = function (){
+    document.getElementById("audio").play();
+    document.getElementById("click").remove();
+}
+</script>
 <head>
     <div class="rain">
         <div class="drop"></div>
@@ -27,7 +32,8 @@
         <div class="drop"></div>
     </div>
    </head>
-  <body>
+  <body id="body">
+    <div id="click" class="click"><h3>Click Here</h3></div>
      </body>
      <div class="center"
      <div class="Work">
