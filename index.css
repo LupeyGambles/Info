@@ -11,6 +11,23 @@ body{
  width: 75px;
  height: 75px;
 }
+.music{
+    display:none;
+}
+.click{
+    height:100%;
+    background-color:black;
+    position:absolute;
+    width:100%;
+    z-index:12;
+    align-items:center;
+    align-content:center;
+}
+h2{
+    color:white;
+    font-family: "Poetsen One";
+    align-self: center;
+}
 h1{
     color: white;
     font-family: "Poetsen One";
