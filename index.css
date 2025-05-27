@@ -51,16 +51,19 @@ p{
     font-family: "Poetsen One";
 }
 .center{
-  border: 5px solid;
+  border-radius:20px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 10px;
-  background-color: limegreen;
+  background-color: rgba(80, 233, 20, 0.4);
   height: 20vh;
   width: 50vh;
   font-family: "Poetsen One";
+}
+.discord{
+    height:15%;
 }
 .rain{
     position: absolute;
