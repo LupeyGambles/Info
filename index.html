@@ -12,9 +12,11 @@
      if(Math.random() < 0.5) {
     document.getElementById("audio").play();
     document.getElementById("click").remove();
+    document.getElementById("audio1").stop();
     } else {
      document.getElementById("click").remove();
      document.getElementById("audio1").play();
+     document.getElementById("audio").stop();
     }
 }
 </script>
