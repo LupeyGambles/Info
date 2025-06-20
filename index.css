@@ -5,7 +5,7 @@
 }
 body{
     background-image: url('https://images.pexels.com/photos/3075993/pexels-photo-3075993.jpeg?cs=srgb&dl=pexels-sanaan-3075993.jpg&fm=jpg');
-    background-size:cover;
+    background-size: cover;
 }
 .logo{
  width: 75px;
@@ -66,9 +66,6 @@ p{
     height:15%;
 }
 .patreon{
-    height:15%;
-}
-.meta{
     height:15%;
 }
 .rain{
