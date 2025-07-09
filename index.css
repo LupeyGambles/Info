@@ -10,6 +10,7 @@ body{
 .logo{
  width: 75px;
  height: 75px;
+ border-radius: 50px;
 }
 .music{
     display:none;
@@ -58,15 +59,14 @@ p{
   transform: translate(-50%, -50%);
   padding: 10px;
   background-color: rgba(80, 233, 20, 0.4);
+  background-color: rgba(80, 233, 20)100%;
   height: 20vh;
   width: 50vh;
   font-family: "Poetsen One";
 }
 .discord{
     height:15%;
-}
-.meta{
-    height:15%;
+    filter: brightness(0) saturate(100%) invert(68%) sepia(90%) saturate(1491%) hue-rotate(138deg) brightness(95%) contrast(97%);
 }
 .rain{
     position: absolute;
