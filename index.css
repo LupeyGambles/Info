@@ -68,6 +68,9 @@ p{
     height:15%;
     filter: brightness(0) saturate(100%) invert(68%) sepia(90%) saturate(1491%) hue-rotate(138deg) brightness(95%) contrast(97%);
 }
+.Github{
+    height:15%;
+}
 .rain{
     position: absolute;
     top: 0;
