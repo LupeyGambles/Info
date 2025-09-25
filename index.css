@@ -60,9 +60,17 @@ p{
   padding: 10px;
   background-color: rgba(80, 233, 20, 0.3);
   background-color: rgba(80, 233, 20)100%;
-  height: 20vh;
-  width: 50vh;
+  height: 45%;
+  width: 50%;
   font-family: "Poetsen One";
+}
+.below-center{
+     display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;      
+  margin-top: 20px;
 }
 .muteButton{
     height:3%;
