@@ -83,11 +83,10 @@ p{
         transition: transform 0.3s;
         box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
 }
-.discord{
-    height:15%;
-    filter: brightness(0) saturate(100%) invert(68%) sepia(90%) saturate(1491%) hue-rotate(138deg) brightness(95%) contrast(97%);
-}
 .Github{
+    height:15%;
+}
+.Steam{
     height:15%;
 }
 .rain{
