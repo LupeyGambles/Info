@@ -7,6 +7,9 @@ body{
     background-image: url('https://images.pexels.com/photos/3075993/pexels-photo-3075993.jpeg?cs=srgb&dl=pexels-sanaan-3075993.jpg&fm=jpg');
     background-size: cover;
 }
+svg{
+    margin-left:5px;
+}
 .logo{
  width: 75px;
  height: 75px;
