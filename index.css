@@ -26,6 +26,7 @@ svg{
  width: 75px;
  height: 75px;
  border-radius: 50px;
+ opacity: 0.2;
 }
 .music{
     display:none;
