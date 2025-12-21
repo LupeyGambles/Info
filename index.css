@@ -4,9 +4,21 @@
   font-style: normal;
 }
 body{
-    background-image: url('https://images.pexels.com/photos/3075993/pexels-photo-3075993.jpeg?cs=srgb&dl=pexels-sanaan-3075993.jpg&fm=jpg');
-    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
 }
+#audio{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
 svg{
     margin-left:2px;
 }
@@ -61,8 +73,8 @@ p{
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 10px;
-  background-color: rgba(80, 233, 20, 0.3);
-  background-color: rgba(80, 233, 20)100%;
+  background-color: rgba(48, 42, 56, 0.3);
+  background-color: rgba(74, 51, 102)100%;
   height: 45%;
   width: 50%;
   font-family: "Poetsen One";
