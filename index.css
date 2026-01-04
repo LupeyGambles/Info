@@ -76,8 +76,8 @@ p{
   padding: 10px;
   background-color: rgba(48, 42, 56, 0.3);
   background-color: rgba(74, 51, 102)100%;
-  height: 45%;
-  width: 50%;
+  max-width: 420px;
+  width: 90%;
   font-family: "Poetsen One";
 }
 .below-center{
@@ -99,11 +99,11 @@ p{
         transition: transform 0.3s;
         box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
 }
-.Github{
-    height:15%;
-}
+.Github,
 .Steam{
-    height:15%;
+    width:40px;
+    height:40px;
+    margin:10px;
 }
 .rain{
     position: absolute;
