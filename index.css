@@ -99,6 +99,26 @@ p{
         transition: transform 0.3s;
         box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
 }
+.links{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.links img{
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+.links img:hover{
+    transform: scale(1.15);
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.9));
+}
+.links a {
+    border-radius: 10px;
+    padding: 6px;
+    transition: background-color 0.2s ease;
+}
+.links a:hover{
+    background-color: rgba(255, 255, 255, 0.12);
+}
 .Github,
 .Steam{
     width:40px;
@@ -145,3 +165,34 @@ p{
 .drop:nth-child(16) { Left: 65%; animation-duration: 1.3s;}
 .drop:nth-child(17) { Left: 75%; animation-duration: 1.6s;}
 .drop:nth-child(18) { Left: 85%; animation-duration: 1.4s;}
+
+.rainbow-text{
+    background: linear-gradient(
+        90deg,
+        #ff0000,
+        #ff7f00,
+        #ffff00,
+        #00ff00,
+        #00ffff,
+        #0000ff,
+        #8b00ff,
+        #ff0000
+    );
+    background-size: 400% 400%;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+
+    animation: rainbowMove 4s linear infinite;
+}
+
+@keyframes rainbowMove{
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
