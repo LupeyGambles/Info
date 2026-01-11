@@ -22,6 +22,7 @@ body{
 svg{
     margin-left:2px;
     filter: drop-shadow(0 0 18px rgba(255, 255, 255, 0.9));
+    color: #1b122e;
 }
 h1{
     filter: drop-shadow(0 0 18px rgba(255, 255, 255, 0.9));
