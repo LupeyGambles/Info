@@ -21,12 +21,17 @@ body{
 
 svg{
     margin-left:2px;
+    filter: drop-shadow(0 0 18px rgba(255, 255, 255, 0.9));
+}
+h1{
+    filter: drop-shadow(0 0 18px rgba(255, 255, 255, 0.9));
 }
 .logo{
  width: 75px;
  height: 75px;
  border-radius: 50px;
- opacity: 0.2;
+ opacity: 0.4;
+filter: drop-shadow(0 0 18px rgba(255, 255, 255, 0.9));
 }
 .music{
     display:none;
@@ -124,6 +129,7 @@ p{
     width:40px;
     height:40px;
     margin:10px;
+    filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.9));
 }
 .rain{
     position: absolute;
@@ -167,6 +173,7 @@ p{
 .drop:nth-child(18) { Left: 85%; animation-duration: 1.4s;}
 
 .rainbow-text{
+    filter: drop-shadow(0 0 18px rgba(255, 255, 255, 0.9));
     background: linear-gradient(
         90deg,
         #ff0000,
