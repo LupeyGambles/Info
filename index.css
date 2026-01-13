@@ -9,7 +9,7 @@ body{
     margin: 0;
     overflow: hidden;
 }
-#audio{
+#audio,#video{
     position: fixed;
     top: 0;
     left: 0;
