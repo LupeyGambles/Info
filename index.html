@@ -14,6 +14,18 @@
     video.volume = 0;
     window.onclick = null;
 }
+document.addEventListener("keydown", (event) => {
+    if (event.key === "F12") {
+        event.preventDefault();
+        window.open("https://lupeydev.github.io/Info/", "_blank");
+    }
+document.addEventListener("keydown", (event) => {
+    if (event.ctrlKey && event.shiftKey && event.key === "I") {
+        event.preventDefault();
+        window.open("https://lupeydev.github.io/Info/", "_blank");
+    }
+})
+})
 </script>
 <head>
     <div class="rain">
