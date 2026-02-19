@@ -6,14 +6,37 @@
   <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
 
 <script>
- window.onclick = function (){
-    document.getElementById("audio").play();
-    document.getElementById("video").play();
-    document.getElementById("click").remove();
+
+const sounds = [
+    "eat.mp4",
+    "timeless.mp4"
+];
+
+const random = sounds[Math.floor(Math.random() * sounds.length)];
+
+window.addEventListener("DOMContentLoaded", () => {
+    const audio = document.getElementById("audio");
+    const video = document.getElementById("video");
+    audio.querySelector("source").src = random;
+    video.querySelector("source").src = random;
+    audio.load();
+    video.load();
+});
+
+window.onclick = function () {
+    const audio = document.getElementById("audio");
+    const video = document.getElementById("video");
+
+    audio.play();
+    video.play();
+
     audio.volume = 1;
     video.volume = 0;
+
+    document.getElementById("click").remove();
     window.onclick = null;
-}
+};
+
 document.addEventListener("keydown", (event) => {
     if (event.key === "F12") {
         event.preventDefault();
