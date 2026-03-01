@@ -94,17 +94,54 @@ p{
   text-align: center;      
   margin-top: 20px;
 }
-.muteButton{
-    height:3%;
-     position: fixed;
-        background: none;
-        border: 5px solid transparent;
-        border-radius: 10px;
-        cursor: pointer;
-        padding: 10px;
-        transition: transform 0.3s;
-        box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+#muteButton {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    background: none;
+    border: 5px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    transition: transform 0.3s;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
 }
+
+#muteButton img {
+    height: 40px;
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+#muteButton img:hover {
+    transform: scale(1.15);
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.9));
+}
+
+#playNext {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    background: none;
+    border: 5px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    transition: transform 0.3s;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+#playNext img {
+    height: 40px;
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+#playNext img:hover {
+    transform: scale(1.15);
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.9));
+}
+
 .links{
     display:flex;
     justify-content: center;
