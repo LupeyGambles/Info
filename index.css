@@ -40,11 +40,12 @@ filter: drop-shadow(0 0 18px rgba(255, 255, 255, 0.9));
 .click{
     height:100%;
     background-color:black;
-    position:absolute;
+    position: absolute;
     width:100%;
     z-index:12;
     align-items:center;
     align-content:center;
+    vertical-align: middle;
 }
 h2{
     color:white;
@@ -60,11 +61,32 @@ h3{
     align-items:center;
     align-content:center;
     position:absolute;
-}
-.click{
-    align-items:center;
-    align-content:center;
-    width:100%
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: "Poetsen One";
+    
+     filter: drop-shadow(0 0 18px rgba(255, 255, 255, 0.9));
+    background: linear-gradient(
+        90deg,
+        #ff0000,
+        #ff7f00,
+        #ffff00,
+        #00ff00,
+        #00ffff,
+        #0000ff,
+        #8b00ff,
+        #ff0000
+    );
+    background-size: 400% 400%;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+
+    animation: rainbowMove 4s linear infinite;
 }
 h1{
     color: white;
@@ -87,7 +109,7 @@ p{
   font-family: "Poetsen One";
 }
 .below-center{
-     display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
