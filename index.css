@@ -34,6 +34,14 @@ h1{
  opacity: 0.789;
 filter: drop-shadow(0 0 18px rgba(255, 255, 255, 0.9));
 }
+.CodeVG{
+    height: 15px;
+    margin-bottom:15px;
+    filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.9));
+    background-color: rgba(244, 244, 244, 0.12);
+    border-radius: 10px;
+    border: 5px solid transparent;
+}
 .music{
     display:none;
 }
